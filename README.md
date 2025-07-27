@@ -1,234 +1,277 @@
-# 👋 Hi there, I'm Jashwanth Boddupally! 
+# 🤖 Jashwanth Boddupally | AI/ML Engineer & Generative AI Specialist
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,50:F7931E,100:FFD23F&height=200&section=header&text=Jashwanth%20Boddupally&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Problem%20Solver&descAlignY=51&descAlign=62" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=Generative%20AI%20Engineer&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=%F0%9F%A7%A0%20Building%20the%20Future%20with%20AI%20%7C%20%F0%9F%A4%96%20Machine%20Learning%20Innovator&descAlignY=60&descAlign=50" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=FF6B35&center=true&vCenter=true&multiline=true&width=800&height=100&lines=🚀+Welcome+to+my+Digital+Universe!;💻+Full+Stack+Developer+%7C+🎯+Problem+Solver;🌟+Always+Learning+%7C+🔥+Building+Cool+Stuff;⚡+Let's+Code+Something+Amazing!" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=500&color=00D4FF&center=true&vCenter=true&multiline=true&width=900&height=140&lines=%F0%9F%A7%A0+Generative+AI+%7C+Large+Language+Models;%F0%9F%A4%96+Computer+Vision+%7C+Deep+Learning+Expert;%F0%9F%9A%80+Transformers+%7C+Neural+Architecture+Search;%E2%9A%A1+MLOps+%7C+AI+Research+%26+Development">
+    <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=500&color=00D4FF&center=true&vCenter=true&multiline=true&width=900&height=140&lines=%F0%9F%A7%A0+Generative+AI+%7C+Large+Language+Models;%F0%9F%A4%96+Computer+Vision+%7C+Deep+Learning+Expert;%F0%9F%9A%80+Transformers+%7C+Neural+Architecture+Search;%E2%9A%A1+MLOps+%7C+AI+Research+%26+Development" />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Animated Wave" />
+  <img width="50%" src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true"/>
 </div>
 
-## 🚀 About Me
+---
 
-<div align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="500" alt="Coding Animation"/>
-</div>
+## 🧠 AI/ML Expertise Profile
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+<img align="right" alt="AI Development" width="400" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true">
 
-```javascript
-const jashwanth = {
-    name: "Jashwanth Boddupally",
-    role: "Software Developer 💻",
-    location: "India 🇮🇳",
-    age: calculateAge("1995-01-01"),
-    code: ["JavaScript", "Python", "Java", "C++"],
-    technologies: {
-        frontend: ["React ⚛️", "Vue 💚", "HTML5 🌐", "CSS3 🎨"],
-        backend: ["Node.js 🟢", "Express ⚡", "Django 🐍"],
-        database: ["MongoDB 🍃", "MySQL 🐬", "PostgreSQL 🐘"],
-        cloud: ["AWS ☁️", "Google Cloud 🌤️", "Azure 🔵"],
-        tools: ["Docker 🐳", "Git 📝", "VS Code 💙"]
-    },
-    currentFocus: "Building amazing web applications 🌟",
-    funFact: "I debug with console.log() and I'm proud of it! 😄",
-    motto: "Code, Coffee, Repeat ☕️🔄"
-};
+```python
+class AIEngineer:
+    def __init__(self):
+        self.name = "Jashwanth Boddupally"
+        self.role = "Generative AI Engineer & ML Researcher"
+        self.location = "India 🇮🇳"
+        self.expertise = {
+            "generative_ai": [
+                "Large Language Models (LLMs)", "GPT/BERT/T5",
+                "Stable Diffusion", "GANs", "VAEs", "Transformers"
+            ],
+            "deep_learning": [
+                "PyTorch", "TensorFlow", "Keras", "JAX",
+                "Hugging Face", "Weights & Biases", "MLflow"
+            ],
+            "computer_vision": [
+                "OpenCV", "YOLO", "ResNet", "Vision Transformers",
+                "Object Detection", "Image Segmentation"
+            ],
+            "nlp": [
+                "NLTK", "spaCy", "Transformers", "LangChain",
+                "Prompt Engineering", "Fine-tuning", "RAG"
+            ],
+            "mlops": [
+                "Docker", "Kubernetes", "MLflow", "DVC",
+                "Airflow", "AWS SageMaker", "Azure ML"
+            ]
+        }
+        self.current_research = [
+            "Multimodal Large Language Models",
+            "Neural Architecture Search",
+            "Federated Learning",
+            "AI Safety & Alignment"
+        ]
+        
+    def get_passion(self):
+        return "Pushing the boundaries of AI to solve real-world problems! 🚀"
 
-console.log("Hello World! 🌍");
+ai_engineer = AIEngineer()
+print(f"🤖 {ai_engineer.get_passion()}")
 ```
 
+## 🚀 AI/ML Technology Arsenal
+
 <div align="center">
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100">
-  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100">
-  <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="100">
-  <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="100">
-  <img src="https://media.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.gif" width="100">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,docker,kubernetes,aws,gcp,azure,git,github,vscode,jupyter,anaconda,linux&perline=8&theme=dark" />
 </div>
 
-## 🌈 Animated Separator
-
+### 🧠 **Deep Learning & Neural Networks**
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Rainbow Line" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/JAX-00B4D8?style=for-the-badge&logo=jax&logoColor=white" />
 </div>
 
-## 🛠️ Tech Stack Arsenal
+### 🤖 **Generative AI & LLMs**
+<div align="center">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Stable%20Diffusion-00618A?style=for-the-badge&logo=stablediffusion&logoColor=white" />
+  <img src="https://img.shields.io/badge/DALL%E2%80%A2E-412991?style=for-the-badge&logo=openai&logoColor=white" />
+</div>
+
+### 👁️ **Computer Vision**
+<div align="center">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black" />
+  <img src="https://img.shields.io/badge/Detectron2-FF6B6B?style=for-the-badge&logo=detectron2&logoColor=white" />
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=mediapipe&logoColor=white" />
+</div>
+
+### 🗣️ **Natural Language Processing**
+<div align="center">
+  <img src="https://img.shields.io/badge/NLTK-3776AB?style=for-the-badge&logo=nltk&logoColor=white" />
+  <img src="https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white" />
+  <img src="https://img.shields.io/badge/BERT-FF6F00?style=for-the-badge&logo=bert&logoColor=white" />
+  <img src="https://img.shields.io/badge/GPT-412991?style=for-the-badge&logo=openai&logoColor=white" />
+</div>
+
+### ⚙️ **MLOps & Cloud Platforms**
+<div align="center">
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Weights%20&%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black" />
+  <img src="https://img.shields.io/badge/AWS%20SageMaker-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure%20ML-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
+</div>
+
+<br>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,react,vue,nodejs,express,django,mongodb,mysql,postgresql,aws,gcp,azure,docker,git,vscode,github&perline=10&theme=dark" alt="Tech Stack" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jashwanthboddupally&theme=dark&hide_border=true&background=0D1117&stroke=00D4FF&ring=00D4FF&fire=FF6B35&currStreakLabel=00D4FF" />
+</div>
+
+## 📊 GitHub Analytics & AI Contributions
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <img src="https://github-readme-stats.vercel.app/api?username=jashwanthboddupally&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=ffffff&count_private=true" />
+      </td>
+      <td width="50%">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jashwanthboddupally&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=ffffff&langs_count=8" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jashwanthboddupally&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FF6B35" />
+</div>
 
-### 🚀 Languages & Frameworks
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=F7DF1E&color=F7DF1E" alt="JavaScript">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=3178C6&color=3178C6" alt="TypeScript">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=3776AB&color=3776AB" alt="Python">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=ED8B00&color=ED8B00" alt="Java">
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=00599C&color=00599C" alt="C++">
+## 🏆 AI Research Achievements
 
-### 🎨 Frontend Magic
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=20232A&color=61DAFB" alt="React">
-<img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D&labelColor=35495E&color=4FC08D" alt="Vue.js">
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white&labelColor=000000&color=000000" alt="Next.js">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=E34F26&color=E34F26" alt="HTML5">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=1572B6&color=1572B6" alt="CSS3">
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=jashwanthboddupally&theme=onestar&no-frame=true&no-bg=true&margin-w=4&column=7" />
+</div>
 
-### ⚡ Backend Power
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white&labelColor=43853D&color=43853D" alt="Node.js">
-<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white&labelColor=404D59&color=404D59" alt="Express.js">
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white&labelColor=092E20&color=092E20" alt="Django">
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=009688&color=009688" alt="FastAPI">
+## 🔬 Current AI Research & Projects
+
+<div align="center">
+  
+### 🧠 **Large Language Models & Generative AI**
+  
+| Project | Description | Tech Stack | Status |
+|---------|-------------|------------|--------|
+| 🤖 **Custom LLM Fine-tuning** | Fine-tuning LLaMA/GPT models for domain-specific tasks | PyTorch, Transformers, LoRA, QLoRA | 🚀 Active |
+| 🎨 **Multimodal AI Assistant** | Building AI that understands text, images, and audio | CLIP, Whisper, GPT-4V, LangChain | 🔬 Research |
+| 📚 **RAG-Enhanced Chatbot** | Retrieval-Augmented Generation for knowledge bases | ChromaDB, LangChain, OpenAI, Pinecone | ✅ Complete |
+| 🎭 **AI Content Generator** | Text-to-image, text-to-video generation pipeline | Stable Diffusion, ControlNet, RunwayML | 🚧 Development |
+
+### 👁️ **Computer Vision & Deep Learning**
+
+| Project | Description | Tech Stack | Status |
+|---------|-------------|------------|--------|
+| 🔍 **Real-time Object Detection** | YOLO-based detection with custom dataset training | YOLOv8, OpenCV, PyTorch, TensorRT | ✅ Complete |
+| 🎯 **Medical Image Analysis** | AI for medical diagnosis from X-rays and MRIs | ResNet, U-Net, TensorFlow, DICOM | 🔬 Research |
+| 🏃 **Human Pose Estimation** | Real-time pose tracking and action recognition | MediaPipe, OpenPose, LSTM, OpenCV | 🚀 Active |
+| 🌆 **Image Super-Resolution** | AI-powered image enhancement using GANs | ESRGAN, SRCNN, PyTorch, PIL | ✅ Complete |
 
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</div>
-
-## 📊 GitHub Analytics Dashboard
+## 📈 AI Learning & Development Metrics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=jashwanthboddupally&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=ff6b35&icon_color=ff6b35&text_color=ffffff&border_radius=10" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=jashwanthboddupally&theme=tokyonight&hide_border=true&background=0d1117&stroke=ff6b35&ring=ff6b35&fire=ff6b35&currStreakLabel=ff6b35&border_radius=10" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jashwanthboddupally&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=ffffff&border_radius=10" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jashwanthboddupally&theme=tokyonight" alt="Profile Summary" />
-</div>
-
-## 🏆 Achievement Showcase
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jashwanthboddupally&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Animated Wave" />
-</div>
-
-## 🎯 Current Adventure
-
-<div align="center">
-  <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="50">
-  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50">
-</div>
-
-- 🔭 I'm currently working on **Full Stack Web Applications with Modern Tech Stack**
-- 🌱 I'm currently learning **Cloud Architecture & DevOps Practices**
-- 👯 I'm looking to collaborate on **Open Source Projects & Innovative Solutions**
-- 🤔 I'm looking for help with **Scalable System Design**
-- 💬 Ask me about **JavaScript, React, Node.js, Python, System Design**
-- 📫 How to reach me: **Let's connect below! 👇**
-- 😄 Pronouns: **He/Him**
-- ⚡ Fun fact: **I can debug code faster than I can make coffee! ☕️**
-
-## 📈 Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jashwanthboddupally&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=ff6b35&line=ff6b35&point=ffffff" alt="Activity Graph" />
-</div>
-
-## 🌟 Featured Repositories
-
-<div align="center">
-  <a href="https://github.com/jashwanthboddupally/awesome-project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jashwanthboddupally&repo=awesome-project&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=ffffff&icon_color=ff6b35&border_radius=10" alt="Awesome Project" />
-  </a>
-  <a href="https://github.com/jashwanthboddupally/cool-webapp">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jashwanthboddupally&repo=cool-webapp&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=ffffff&icon_color=ff6b35&border_radius=10" alt="Cool WebApp" />
-  </a>
-</div>
-
-## 🎵 Currently Vibing To
-
-<div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=0d1117&border_color=ff6b35" alt="Spotify Playing" />
-</div>
-
-## ⚡ Quick Stats
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/jashwanthboddupally/jashwanthboddupally/main/metrics.plugin.wakatime.svg" alt="WakaTime Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=jashwanthb&theme=dark&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=ffffff&layout=compact" />
 </div>
 
 <div align="center">
   <table>
     <tr>
-      <td><img src="https://github-readme-stats.vercel.app/api/wakatime?username=jashwanthb&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=ffffff&border_radius=10" alt="WakaTime Stats" /></td>
-      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jashwanthboddupally&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=ffffff&border_radius=10" alt="Top Languages" /></td>
+      <td align="center">
+        <h3>🧠 AI/ML Focus Areas</h3>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jashwanthboddupally&repo=generative-ai-projects&theme=dark&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=ffffff&icon_color=FF6B35" />
+      </td>
+      <td align="center">
+        <h3>🚀 Latest Research</h3>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jashwanthboddupally&repo=llm-fine-tuning&theme=dark&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=ffffff&icon_color=FF6B35" />
+      </td>
     </tr>
   </table>
 </div>
 
-## 🌐 Connect With Me
+## 🎯 AI Research Interests & Future Goals
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Animated Wave" />
+  <img width="40%" src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" />
 </div>
 
+### 🔮 **Current Research Focus**
+- 🧠 **Multimodal Large Language Models** - Advancing AI that can understand and generate across text, images, and audio
+- 🤖 **AI Safety & Alignment** - Ensuring AI systems behave as intended and remain beneficial
+- 🔬 **Neural Architecture Search** - Automated design of optimal neural network architectures
+- 🌐 **Federated Learning** - Privacy-preserving distributed machine learning
+- ⚡ **Edge AI Optimization** - Deploying AI models on resource-constrained devices
+
+### 🎯 **2024-2025 Goals**
+- 📝 Publish research papers in top-tier AI conferences (NeurIPS, ICML, ICLR)
+- 🏆 Contribute to major open-source AI projects (Hugging Face, PyTorch)
+- 🚀 Build and deploy production-scale AI applications
+- 🎓 Complete Advanced AI/ML certifications from Stanford/MIT
+- 🌟 Mentor aspiring AI engineers and researchers
+
+## 🌐 AI Community & Professional Network
+
 <div align="center">
 
-### 📞 Contact Information
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50">
+### 📞 **Contact Information**
+<img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">
 
 📱 **Mobile:** +91 9010767269  
-📧 **Email:** jashwanthbooduapally@gmail.com
+📧 **Email:** jashwanthbooduapally@gmail.com  
+🔬 **Research:** Available for AI/ML collaborations
 
-### 🔗 Social Universe
+### 🤝 **Professional Networks**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5&color=0077B5)](https://linkedin.com/in/jashwanthboddupally)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2&color=1DA1F2)](https://twitter.com/jashwanthb)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F&color=E4405F)](https://instagram.com/jashwanthb)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=100000&color=100000)](https://github.com/jashwanthboddupally)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=FF5722&color=FF5722)](https://jashwanthboddupally.dev)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white&labelColor=7289DA&color=7289DA)](https://discord.com/users/jashwanthb)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jashwanthboddupally)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jashwanthboddupally)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/jashwanthb)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=jashwanthb)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://researchgate.net/profile/jashwanthb)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@jashwanthb)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/jashwanthb)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@jashwanthb)
+
+### 🏅 **AI Community Involvement**
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/jashwanthb)
+[![Papers With Code](https://img.shields.io/badge/Papers_With_Code-21CBCE?style=for-the-badge&logo=paperswithcode&logoColor=white)](https://paperswithcode.com/user/jashwanthb)
+[![Weights & Biases](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)](https://wandb.ai/jashwanthb)
 
 </div>
+
+## 📊 Profile Analytics
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=jashwanthboddupally&label=Profile%20Views&color=ff6b35&style=for-the-badge&labelColor=0d1117" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/jashwanthboddupally?label=Followers&style=for-the-badge&color=ff6b35&labelColor=0d1117" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/jashwanthboddupally?label=Stars&style=for-the-badge&color=ff6b35&labelColor=0d1117" alt="GitHub Stars" />
+  <img src="https://komarev.com/ghpvc/?username=jashwanthboddupally&label=Profile%20Views&color=00D4FF&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/jashwanthboddupally?label=Followers&style=for-the-badge&color=00D4FF" />
+  <img src="https://img.shields.io/github/stars/jashwanthboddupally?label=Total%20Stars&style=for-the-badge&color=FF6B35" />
 </div>
 
-## 💰 Support My Work
+## 💡 Support AI Research & Development
 
 <div align="center">
   <a href="https://www.buymeacoffee.com/jashwanthb">
-    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black&labelColor=FFDD00&color=FFDD00" alt="Buy Me A Coffee" />
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
   </a>
-  <a href="https://paypal.me/jashwanthb">
-    <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white&labelColor=00457C&color=00457C" alt="PayPal" />
+  <a href="https://github.com/sponsors/jashwanthboddupally">
+    <img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" />
   </a>
-</div>
-
-<div align="center">
-  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="100%">
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,50:F7931E,100:FFD23F&height=120&section=footer&animation=fadeIn" alt="Footer Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=footer&animation=fadeIn" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=1000&color=FF6B35&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+🚀;Let's+build+something+amazing+together!+💫;Happy+Coding!+👨‍💻✨" alt="Footer Typing" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=800&lines=%F0%9F%A4%96+Thanks+for+exploring+my+AI+journey!;%F0%9F%9A%80+Let's+build+the+future+with+AI+together!;%F0%9F%A7%A0+The+best+way+to+predict+the+future+is+to+invent+it!">
+    <img alt="Footer Typing" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=800&lines=%F0%9F%A4%96+Thanks+for+exploring+my+AI+journey!;%F0%9F%9A%80+Let's+build+the+future+with+AI+together!;%F0%9F%A7%A0+The+best+way+to+predict+the+future+is+to+invent+it!" />
+  </picture>
 </div>
 
 <div align="center">
-  <h3>🌟 Crafted with ❤️ by <a href="https://github.com/jashwanthboddupally">Jashwanth Boddupally</a></h3>
-  <p>🚀 Made with passion, coffee ☕, and lots of code 💻</p>
+  <h3>🌟 Crafted with 🤖 AI passion by <a href="https://github.com/jashwanthboddupally">Jashwanth Boddupally</a></h3>
+  <p><em>"In the realm of artificial intelligence, we are not just coding the future—we are sculpting the very essence of tomorrow's intelligence."</em></p>
   
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
+  <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
 </div>
