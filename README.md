@@ -95,30 +95,6 @@ console.log("Hello AI World! 🌍🤖");
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </div>
 
-## 📊 GitHub Analytics Dashboard
-
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=jashwanthboddupally&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=ff6b35&icon_color=ff6b35&text_color=ffffff&border_radius=10" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=jashwanthboddupally&theme=tokyonight&hide_border=true&background=0d1117&stroke=ff6b35&ring=ff6b35&fire=ff6b35&currStreakLabel=ff6b35&border_radius=10" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jashwanthboddupally&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=ffffff&border_radius=10" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jashwanthboddupally&theme=tokyonight" alt="Profile Summary" />
-</div>
-
-## 🏆 Achievement Showcase
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jashwanthboddupally&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Animated Wave" />
-</div>
 
 ## 🎯 Current AI Adventure
 
@@ -137,43 +113,7 @@ console.log("Hello AI World! 🌍🤖");
 - 😄 Pronouns: **He/Him**
 - ⚡ Fun fact: **I can fine-tune models faster than I can make coffee! ☕️🤖**
 
-## 📈 Contribution Activity
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jashwanthboddupally&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=ff6b35&line=ff6b35&point=ffffff" alt="Activity Graph" />
-</div>
-
-## 🌟 Featured AI Projects
-
-<div align="center">
-  <a href="https://github.com/jashwanthboddupally/ai-chatbot-llm">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jashwanthboddupally&repo=ai-chatbot-llm&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=ffffff&icon_color=ff6b35&border_radius=10" alt="AI Chatbot LLM" />
-  </a>
-  <a href="https://github.com/jashwanthboddupally/generative-ai-webapp">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jashwanthboddupally&repo=generative-ai-webapp&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=ffffff&icon_color=ff6b35&border_radius=10" alt="Generative AI WebApp" />
-  </a>
-</div>
-
-## 🎵 Currently Vibing To
-
-<div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=0d1117&border_color=ff6b35" alt="Spotify Playing" />
-</div>
-
-## ⚡ Quick Stats
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/jashwanthboddupally/jashwanthboddupally/main/metrics.plugin.wakatime.svg" alt="WakaTime Stats" />
-</div>
-
-<div align="center">
-  <table>
-    <tr>
-      <td><img src="https://github-readme-stats.vercel.app/api/wakatime?username=jashwanthb&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=ffffff&border_radius=10" alt="WakaTime Stats" /></td>
-      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jashwanthboddupally&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=ffffff&border_radius=10" alt="Top Languages" /></td>
-    </tr>
-  </table>
-</div>
 
 ## 🌐 Connect With Me
 
