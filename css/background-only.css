@@ -1,0 +1,783 @@
+/* Hero Section Background & Blur Effects Applied to All Sections */
+
+/* Apply Hero Section Background to All Sections (except hero itself) */
+.about-section,
+.services-section,
+.projects-section,
+.contact-section {
+    background: var(--primary-bg) !important;
+    background-image: none !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+/* Remove existing background overlays and gradients */
+.about-section::before,
+.about-section::after,
+.services-section::before,
+.services-section::after,
+.projects-section::before,
+.projects-section::after,
+.contact-section::before,
+.contact-section::after {
+    display: none !important;
+}
+
+/* Remove existing particle backgrounds */
+.section-particles,
+.background-particles,
+.section-overlay {
+    display: none !important;
+}
+
+/* Add Hero Section Floating Orbs to Services, Projects, Contact (NOT About) */
+.services-section::before,
+.projects-section::before,
+.contact-section::before {
+    content: '' !important;
+    position: absolute !important;
+    width: 200px !important;
+    height: 200px !important;
+    background: radial-gradient(circle, var(--accent-blue) 0%, transparent 70%) !important;
+    border-radius: 50% !important;
+    filter: blur(1px) !important;
+    opacity: 0.6 !important;
+    top: 20% !important;
+    left: 10% !important;
+    z-index: 1 !important;
+    animation: float 6s ease-in-out infinite !important;
+    display: block !important;
+}
+
+.services-section::after,
+.projects-section::after,
+.contact-section::after {
+    content: '' !important;
+    position: absolute !important;
+    width: 150px !important;
+    height: 150px !important;
+    background: radial-gradient(circle, var(--accent-purple) 0%, transparent 70%) !important;
+    border-radius: 50% !important;
+    filter: blur(1px) !important;
+    opacity: 0.6 !important;
+    top: 60% !important;
+    left: 20% !important;
+    z-index: 1 !important;
+    animation: float 8s ease-in-out infinite reverse !important;
+    display: block !important;
+}
+
+/* Add third orb to Services, Projects, Contact (NOT About) */
+.services-section .container::before,
+.projects-section .container::before,
+.contact-section .container::before {
+    content: '' !important;
+    position: absolute !important;
+    width: 100px !important;
+    height: 100px !important;
+    background: radial-gradient(circle, var(--accent-pink) 0%, transparent 70%) !important;
+    border-radius: 50% !important;
+    filter: blur(1px) !important;
+    opacity: 0.6 !important;
+    top: 30% !important;
+    right: 30% !important;
+    z-index: 1 !important;
+    animation: float 7s ease-in-out infinite !important;
+    pointer-events: none !important;
+}
+
+/* Remove ALL orbs from About section to fix profile picture background */
+.about-section::before,
+.about-section::after {
+    display: none !important;
+}
+
+.about-section .container::before {
+    display: none !important;
+}
+
+/* Ensure containers have relative positioning */
+.about-section .container,
+.services-section .container,
+.projects-section .container,
+.contact-section .container {
+    position: relative !important;
+    z-index: 3 !important;
+}
+
+/* Float animation from hero section */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Ensure consistent background across all sections */
+body {
+    background: var(--primary-bg) !important;
+}/* Remove Profile Picture Blue/Cyan Background - About Page Only */
+.about-section .image-glow {
+    display: none !important;
+    opacity: 0 !important;
+    background: none !important;
+}
+
+.about-section .image-container {
+    background: none !important;
+    background-image: none !important;
+    background-color: transparent !important;
+}
+
+.about-section .image-container::before,
+.about-section .image-container::after {
+    display: none !important;
+}
+
+.about-section .about-image {
+    background: none !important;
+    background-image: none !important;
+}
+
+.about-section .profile-img {
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}/* 
+Hero Section Social Media Buttons and Resume Button Styles */
+.hero-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.resume-btn {
+    font-size: 1.2rem !important;
+    padding: 1rem 2.5rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink)) !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 
+        0 8px 32px rgba(139, 92, 246, 0.3),
+        0 0 20px rgba(139, 92, 246, 0.2) !important;
+}
+
+.resume-btn:hover {
+    transform: translateY(-3px) scale(1.05) !important;
+    box-shadow: 
+        0 12px 40px rgba(139, 92, 246, 0.4),
+        0 0 30px rgba(139, 92, 246, 0.3) !important;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 1rem;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.social-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.social-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.social-btn:hover {
+    transform: translateY(-3px) scale(1.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.social-btn:hover::before {
+    opacity: 5;
+}
+
+/* LinkedIn */
+.social-btn.linkedin {
+    background: rgba(0, 119, 181, 0.3);
+    color: #4db8e8;
+    border-color: rgba(0, 119, 181, 0.6);
+}
+
+.social-btn.linkedin::before {
+    background: linear-gradient(135deg, #0077b5, #005885);
+}
+
+.social-btn.linkedin:hover {
+    color: white;
+    background: rgba(0, 119, 181, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 119, 181, 0.6);
+}
+
+/* GitHub */
+.social-btn.github {
+    background: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.social-btn.github::before {
+    background: linear-gradient(135deg, #333, #24292e);
+}
+
+.social-btn.github:hover {
+    color: white;
+    background: rgba(51, 51, 51, 0.4);
+    box-shadow: 0 8px 25px rgba(51, 51, 51, 0.6);
+}
+
+/* Email */
+.social-btn.email {
+    background: rgba(234, 67, 53, 0.3);
+    color: #ff6b5a;
+    border-color: rgba(234, 67, 53, 0.6);
+}
+
+.social-btn.email::before {
+    background: linear-gradient(135deg, #ea4335, #d33b2c);
+}
+
+.social-btn.email:hover {
+    color: white;
+    background: rgba(234, 67, 53, 0.4);
+    box-shadow: 0 8px 25px rgba(234, 67, 53, 0.6);
+}
+
+/* Instagram */
+.social-btn.instagram {
+    background: rgba(225, 48, 108, 0.4);
+    color: #ff5b8a;
+    border-color: rgba(225, 48, 108, 0.6);
+}
+
+.social-btn.instagram::before {
+    background: linear-gradient(135deg, #e1306c, #fd1d1d, #fcb045);
+}
+
+.social-btn.instagram:hover {
+    color: white;
+    background: rgba(225, 48, 108, 0.4);
+    box-shadow: 0 8px 25px rgba(225, 48, 108, 0.6);
+}
+
+/* WhatsApp */
+.social-btn.whatsapp {
+    background: rgba(37, 211, 102, 0.4);
+    color: #4ade80;
+    border-color: rgba(37, 211, 102, 0.6);
+}
+
+.social-btn.whatsapp::before {
+    background: linear-gradient(135deg, #25d366, #128c7e);
+}
+
+.social-btn.whatsapp:hover {
+    color: white;
+    background: rgba(37, 211, 102, 0.4);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.6);
+}
+
+
+
+.social-btn.twitter::before {
+    background: linear-gradient(135deg, #1da1f2, #0d8bd9);
+}
+
+.social-btn.twitter:hover {
+    color: white;
+    background: rgba(29, 161, 242, 1.0);
+    box-shadow: 0 8px 25px rgba(29, 161, 242, 0.6);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-cta {
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+    
+    .social-media-buttons {
+        gap: 1.5rem;
+        padding: 1.2rem 1.5rem;
+        border-radius: 20px;
+    }
+    
+    .social-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+    
+    .resume-btn {
+        font-size: 1rem !important;
+        padding: 0.8rem 2rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-cta {
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .social-media-buttons {
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 18px;
+        flex-wrap: wrap;
+        max-width: 90%;
+    }
+    
+    .social-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 1.1rem;
+    }
+}/* N
+ew Circular Loading Effect */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #0B001A 0%, #0F0520 25%, #151030 50%, #0D0F1C 75%, #0B001A 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.8s ease-in-out;
+}
+
+.preloader.fade-out {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.preloader-content {
+    text-align: center;
+    position: relative;
+}
+
+/* Circular Loader */
+.circular-loader {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 2rem;
+}
+
+.loader-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid rgba(168, 85, 247, 0.2);
+    overflow: hidden;
+}
+
+.loader-progress {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top: 3px solid #A855F7;
+    border-right: 3px solid #842BF2;
+    transform: rotate(-90deg);
+    transition: transform 0.1s ease-out;
+    background: conic-gradient(from 0deg, #A855F7, #842BF2, #5C1EFF, #A855F7);
+    -webkit-mask: radial-gradient(circle, transparent 50px, black 53px);
+    mask: radial-gradient(circle, transparent 50px, black 53px);
+}
+
+.loader-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+}
+
+.loader-dot {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #A855F7, #842BF2);
+    border-radius: 50%;
+    box-shadow: 
+        0 0 20px rgba(168, 85, 247, 0.6),
+        0 0 40px rgba(168, 85, 247, 0.4),
+        0 0 60px rgba(168, 85, 247, 0.2);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Welcome Text */
+.welcome-text {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+    background: linear-gradient(135deg, #A855F7, #842BF2, #5C1EFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: textGlow 2s ease-in-out infinite alternate;
+}
+
+.loading-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.percentage-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #A855F7;
+    letter-spacing: 1px;
+}
+
+/* Animations */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+}
+
+@keyframes textGlow {
+    0% {
+        text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+    }
+    100% {
+        text-shadow: 0 0 30px rgba(168, 85, 247, 0.8), 0 0 40px rgba(132, 43, 242, 0.6);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .circular-loader {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .welcome-text {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+    
+    .loading-text {
+        font-size: 0.9rem;
+    }
+    
+    .percentage-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .circular-loader {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .welcome-text {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+    
+    .loader-inner {
+        width: 16px;
+        height: 16px;
+    }
+}/* Her
+o Section Professional Alignment */
+.hero-content {
+    margin-top: 10vh !important;
+    max-width: 600px !important;
+    padding: 0 2rem !important;
+}
+
+.hero-title {
+    margin-bottom: 1.5rem !important;
+    line-height: 1.1 !important;
+}
+
+.hero-subtitle {
+    margin-bottom: 3rem !important;
+    font-size: 1.1rem !important;
+    line-height: 1.6 !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.hero-cta {
+    gap: 2.5rem !important;
+    margin-top: 0 !important;
+}
+
+.resume-btn {
+    margin-bottom: 0.5rem !important;
+}
+
+.social-media-buttons {
+    margin-top: 0 !important;
+}
+
+/* Better vertical spacing for hero section */
+.hero-section {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 100vh !important;
+    padding: 2rem 0 !important;
+}
+
+/* Responsive adjustments for hero alignment */
+@media (max-width: 768px) {
+    .hero-content {
+        margin-top: 6vh !important;
+        max-width: 90% !important;
+        padding: 0 1rem !important;
+    }
+    
+    .hero-subtitle {
+        margin-bottom: 2.5rem !important;
+        font-size: 1rem !important;
+    }
+    
+    .hero-cta {
+        gap: 2rem !important;
+    }
+    
+    .hero-section {
+        padding: 1rem 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content {
+        margin-top: 4vh !important;
+        padding: 0 0.5rem !important;
+    }
+    
+    .hero-title {
+        margin-bottom: 1rem !important;
+    }
+    
+    .hero-subtitle {
+        margin-bottom: 2rem !important;
+        font-size: 0.95rem !important;
+    }
+    
+    .hero-cta {
+        gap: 1.5rem !important;
+    }
+}
+
+/* Ensure proper vertical centering */
+@media (min-height: 800px) {
+    .hero-content {
+        margin-top: 15vh !important;
+    }
+}
+
+@media (min-height: 1000px) {
+    .hero-content {
+        margin-top: 18vh !important;
+    }
+    
+    .hero-subtitle {
+        margin-bottom: 4rem !important;
+    }
+    
+    .hero-cta {
+        gap: 3rem !important;
+    }
+}/*
+ Colorful Purple Animation for Jashwanth Name */
+.purple-animated-text {
+    background: linear-gradient(
+        45deg,
+        #A855F7,
+        #842BF2,
+        #5C1EFF,
+        #7C3AED,
+        #A855F7,
+        #C084FC,
+        #842BF2
+    );
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: colorfulGlow 3s ease-in-out infinite;
+    position: relative;
+    display: inline-block;
+    text-shadow: none;
+}
+
+.purple-animated-text::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        #A855F7,
+        #842BF2,
+        #5C1EFF,
+        #7C3AED,
+        #A855F7,
+        #C084FC,
+        #842BF2
+    );
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: blur(2px);
+    opacity: 0.7;
+    z-index: -1;
+    animation: colorfulGlow 3s ease-in-out infinite reverse;
+}
+
+.purple-animated-text::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(
+        45deg,
+        rgba(168, 85, 247, 0.3),
+        rgba(132, 43, 242, 0.3),
+        rgba(92, 30, 255, 0.3),
+        rgba(124, 58, 237, 0.3)
+    );
+    background-size: 400% 400%;
+    border-radius: 10px;
+    filter: blur(15px);
+    opacity: 0.6;
+    z-index: -2;
+    animation: glowPulse 2s ease-in-out infinite;
+}
+
+/* Colorful gradient animation */
+@keyframes colorfulGlow {
+    0% {
+        background-position: 0% 50%;
+        filter: drop-shadow(0 0 20px rgba(168, 85, 247, 0.8));
+    }
+    25% {
+        background-position: 100% 50%;
+        filter: drop-shadow(0 0 25px rgba(132, 43, 242, 0.9));
+    }
+    50% {
+        background-position: 100% 100%;
+        filter: drop-shadow(0 0 30px rgba(92, 30, 255, 1));
+    }
+    75% {
+        background-position: 0% 100%;
+        filter: drop-shadow(0 0 25px rgba(124, 58, 237, 0.9));
+    }
+    100% {
+        background-position: 0% 50%;
+        filter: drop-shadow(0 0 20px rgba(168, 85, 247, 0.8));
+    }
+}
+
+/* Glow pulse animation */
+@keyframes glowPulse {
+    0%, 100% {
+        opacity: 0.4;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+}
+
+/* Enhanced glow effect on hover */
+.purple-animated-text:hover {
+    animation-duration: 1.5s;
+}
+
+.purple-animated-text:hover::after {
+    opacity: 1;
+    animation-duration: 1s;
+}
+
+/* Responsive adjustments for animated text */
+@media (max-width: 768px) {
+    .purple-animated-text::after {
+        top: -3px;
+        left: -3px;
+        right: -3px;
+        bottom: -3px;
+        filter: blur(10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .purple-animated-text::after {
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        filter: blur(8px);
+    }
+}
